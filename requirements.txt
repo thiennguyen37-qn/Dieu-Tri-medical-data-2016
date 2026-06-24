@@ -13,6 +13,7 @@ imbalanced-learn
 
 # Utilities
 roman
+geopy  # geocoding địa chỉ -> tọa độ qua API Nominatim (OpenStreetMap)
 
 # Notebook environment
 jupyter

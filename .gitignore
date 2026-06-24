@@ -31,3 +31,6 @@ Thumbs.db
 
 # Environment variables
 .env
+
+# Generated data artifacts (tái sinh bằng notebook 01 -> 02)
+data/processed/
