@@ -1,0 +1,19 @@
+# Data handling
+pandas
+numpy
+openpyxl  # đọc file Excel (.xlsx) cho pd.read_excel
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn
+imbalanced-learn
+
+# Utilities
+roman
+
+# Notebook environment
+jupyter
+ipykernel
