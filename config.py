@@ -21,4 +21,6 @@ RANDOM_SEED = 42
 
 # ----- Geocoding (Nominatim / OpenStreetMap) -----
 GEOCODER_USER_AGENT = "disease-2016-geocoder"
-GEOCODER_MIN_DELAY = 1.1   # số giây tối thiểu giữa 2 request (tuân thủ giới hạn Nominatim)
+GEOCODER_MIN_DELAY = 1.1    # số giây tối thiểu giữa 2 request (tuân thủ giới hạn Nominatim)
+GEOCODER_TIMEOUT = 10       # số giây chờ phản hồi mỗi request (mặc định geopy chỉ 1s -> hay timeout)
+GEOCODER_MAX_RETRIES = 3    # số lần thử lại khi gặp lỗi mạng tạm thời
