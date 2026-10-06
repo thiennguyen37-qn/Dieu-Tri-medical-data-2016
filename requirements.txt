@@ -10,6 +10,9 @@ seaborn
 # Machine learning
 scikit-learn
 imbalanced-learn
+optuna
+xgboost
+lightgbm
 
 # Utilities
 roman
